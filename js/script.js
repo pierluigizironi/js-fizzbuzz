@@ -9,3 +9,15 @@ Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz.*/
 // 3. Metto una seconda condizione che faccia apparire la scritta Buzz per i multipli di 5
 // 4. Se soddisfano i punti 2 e 3, diventeranno Fizzbuzz
 
+
+const hundred = parseInt(100);
+
+console.log(hundred)
+
+let listOfNumbers = '';
+
+for (let i = 0; i <= hundred; i++) {
+     listOfNumbers += i;
+    }
+    
+    console.log (listOfNumbers)
